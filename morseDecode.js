@@ -1,18 +1,21 @@
-// CODIGO EM ANDAMENTO...
+var str = '-... .-. ..- -. --- |-... .-. ..- -. --- ';
 
-var str = '-... .-. ..- -. ---   -.. ---   .--. ';
 function morseDecode(sstr){
   var word = '';
   var aux = '';
   for(var i in sstr){
     
-      if((sstr[i] == ' ') && (sstr[i+1] == ' ') && (sstr[i+2] == ' ')){
+    /*f((sstr[i] == ' ') && (sstr[i+1] == ' ') && (sstr[i+2] == ' ')){
         aux += ' ';
         continue;
-      }
-      
+      }*/
+    
       if((sstr[i] == ' ') && (sstr[i+1] != ' ')){
         aux += morseCode[word];
+        word = '';
+        continue;
+      }else if((sstr[i] == '|')){
+        aux += ' ';
         word = '';
         continue;
       }
