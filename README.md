@@ -12,7 +12,7 @@ o mesmo e retornar uma string.
 separados por um espaço exemplo: '-... .-. ..- -. ---' // retorna Bruno,
 porém para formar textos, ou seja, conjuntos de palavras, essas palavras
 são separadas por três espaços, exemplo:
-'-... .-. ..- -. ---   -... .-. ..- -. ---' // retora Bruno Bruno.
+'-... .-. ..- -. ---&nbsp;&nbsp;&nbsp;-... .-. ..- -. ---' // retora Bruno Bruno.
 
 Resumindo: a cada 1 espaço um caractere, a cada três um espaço.
 
