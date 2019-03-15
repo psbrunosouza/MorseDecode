@@ -1,3 +1,5 @@
+// CODIGO EM ANDAMENTO...
+
 var str = '-... .-. ..- -. ---   -.. ---   .--. ';
 function morseDecode(sstr){
   var word = '';
