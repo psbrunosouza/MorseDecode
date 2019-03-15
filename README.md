@@ -8,7 +8,7 @@ https://www.codewars.com/kata/decode-the-morse-code
 em formato 'morse' é inserido em uma função e a função deve decodificar
 o mesmo e retornar uma string.
 
-- Algumas regras, uma palavra em codigo morse, é construida por caracteres
+- Algumas regras: Uma palavra em codigo morse, é construida por caracteres
 separados por um espaço exemplo: '-... .-. ..- -. ---' // retorna Bruno,
 porém para formar textos, ou seja, conjuntos de palavras, essas palavras
 são separadas por três espaços, exemplo:
